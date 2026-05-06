@@ -1,6 +1,6 @@
 {
   "name": "unzip-stream",
-  "version": "0.3.4",
+  "version": "0.4.0-RC",
   "description": "Process zip files using streaming API",
   "author": "Michal Hruby <michal.mhr@gmail.com>",
   "maintainers": [
@@ -23,6 +23,9 @@
     "stream-buffers": ">= 0.2.5 < 1",
     "tap": "^11.0.1",
     "temp": ">= 0.4.0 < 1"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
   },
   "directories": {
     "example": "examples",
